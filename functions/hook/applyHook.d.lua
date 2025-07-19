@@ -1,0 +1,14 @@
+---Applies all defined hook functions in the current script.
+---
+---Example:
+---```lua
+-----disable trash
+---function OnSendPacket(type_,pkt)
+---    if type_ == 2 and pkt:find("trash") then
+---        return true
+---    end
+---end
+---applyHook()
+---```
+---@param no_return? boolean
+function applyHook(no_return) end

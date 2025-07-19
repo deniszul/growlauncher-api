@@ -1,0 +1,12 @@
+---@class PacketRaw
+---@field type integer
+---@field value integer
+---@field x integer
+---@field y integer
+---@field px integer
+---@field py integer
+---@field state integer
+---@field netid integer
+---@field xspeed integer
+---@field yspeed integer
+local PacketRaw = {}

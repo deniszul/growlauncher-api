@@ -1,0 +1,14 @@
+---Spawn a visual NPC Avatar.
+---Set the netID to -1 to do auto netID from the world, make sure the netID doesn't exists to avoid crash.
+---
+---Example:
+---```lua
+---Ubinoob = createPlayer("`@@UbiNoob", "id", -1, getLocal().pos.x, getLocal().pos.y)
+---```
+---@param name string
+---@param flag string
+---@param netID integer
+---@param posX float
+---@param posY float
+---@return NetAvatar
+function createPlayer(name, flag, netID, posX, posY) end

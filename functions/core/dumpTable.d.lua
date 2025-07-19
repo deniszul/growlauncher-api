@@ -1,0 +1,15 @@
+---Dump a table
+---
+---Example:
+---```lua
+---local table = {
+---    name = "Nobody",
+---    age = 99,
+---    hobbies = {"watching", "breathing"}
+---}
+---dumpTable(table)
+---Output: "{["name"] = Nobody, ["age"] = 99, ["hobbies"] = {[1] = watching, [2] = breathing,},}"
+---```
+---@param table table
+---@return string
+function dumpTable(table) end

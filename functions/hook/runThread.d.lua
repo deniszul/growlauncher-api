@@ -1,0 +1,18 @@
+---Run a thread of a function with arguments, no return.
+---
+---Example:
+---```lua
+---AddHook(function(type,pkt)
+---    if type == 2 then
+---        runThread(function(p)
+---            for a=1,3 do
+---                LogToConsole(p)
+---                CSleep(1000)
+---            end
+---        end, pkt)
+---    end
+---end, "onSendPacket")
+---```
+---@param fn function
+---@param args any[]
+function runThread(fn, args) end

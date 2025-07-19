@@ -1,0 +1,26 @@
+---Add a custom module to growlauncher using json.
+---More info about Module, check out (LINK)
+---
+---Example:
+---```lua
+---json = [[
+---    {
+---        "sub_name": "Custom Module",
+---        "icon": "Verified",
+---        "menu": [
+---            {
+---                "type": "label",
+---                "text": "Name"
+---            },
+---            {
+---                "type": "toggle",
+---                "text": "Feature 1",
+---                "alias": "feature 1"
+---            }
+---        ]
+---    }
+---]]
+---addIntoModule(json
+---```
+---@param json any
+function addIntoModule(json) end

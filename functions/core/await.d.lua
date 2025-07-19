@@ -1,0 +1,16 @@
+---Waits function using timeout.
+---
+---Example:
+---```lua
+---local wait_me = false
+---runThread(function()
+---Sleep(4000)
+---wait_me = true
+---end)
+---
+---await(function() return wait_me end, 0) --set timeout 0 to infinity wait, 
+---LogToConsole("Hello, welcome :D");
+---```
+---@param fn function
+---@param timeout integer
+function await(fn, timeout) end

@@ -1,0 +1,18 @@
+---Run a coroutine of a function with arguments.
+---
+---Example:
+---```lua
+---AddHook(function(type,pkt)
+---    if type == 2 then
+---        runCoroutine(function(p)
+---            for a=1,3 do
+---                LogToConsole(p)
+---                CSleep(1000)
+---            end
+---        end, pkt)
+---    end
+---end, "onSendPacket")
+---```
+---@param fn function
+---@param args any[]
+function runCoroutine(fn, args) end

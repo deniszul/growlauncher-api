@@ -1,0 +1,12 @@
+---Make a GL dialog.
+---
+---Example:
+---```lua
+---sendDialog({title = "IniEy", message = "Ey", confirm = "Eyo", url = "https://media.discordapp.net/attachments/1208061157160521779/1228934600529678386/Ey_iniey.png?ex=662dd989&is=661b6489&hm=3bf0116594328b864c92560ec3b163fcaa71517623d09d6efd8713185854e7cd", alias = "Eys"})
+---```
+---@param title string
+---@param message string
+---@param confirm string
+---@param url string
+---@param alias string
+function sendDialog(title, message, confirm, url, alias) end

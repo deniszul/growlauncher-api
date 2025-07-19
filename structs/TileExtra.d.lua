@@ -1,0 +1,12 @@
+---@class TileExtra
+---@field label string
+---@field owner integer
+---@field flag integer
+---@field type integer
+---@field admin integer[]
+---@field lastupdate integer
+---@field alttype integer
+---@field growth integer
+---@field fruitcount integer
+---@field volume integer
+local extra = {}
