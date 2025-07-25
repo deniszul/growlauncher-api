@@ -6,7 +6,7 @@
 ---```
 ---@param x integer
 ---@param y integer
----@param check_only boolean
+---@param check_only? boolean
 ---@return boolean
 function FindPath(x, y, check_only) end
 
@@ -18,7 +18,7 @@ function FindPath(x, y, check_only) end
 ---```
 ---@param x integer
 ---@param y integer
----@param check_only boolean
+---@param check_only? boolean
 ---@return boolean
 function findPath(x, y, check_only) end
 

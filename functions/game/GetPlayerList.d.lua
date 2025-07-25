@@ -1,3 +1,5 @@
+---Get all player in current world
+---
 ---Example:
 ---```lua
 -----check player in the world
@@ -10,6 +12,8 @@
 ---@return NetAvatar[] players
 function GetPlayerList() end
 
+---Get all player in current world
+---
 ---Example:
 ---```lua
 -----check player in the world

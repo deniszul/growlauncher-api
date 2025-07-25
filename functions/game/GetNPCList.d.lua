@@ -4,7 +4,7 @@
 ---    LogToConsole("Found ghost in "..(npc.pos.x//32)..", "..(npc.pos.y//32))
 ---end
 ---```
----@return ClientNPC
+---@return ClientNPC[]
 function GetNPCList() end
 
 ---Example:
@@ -13,5 +13,5 @@ function GetNPCList() end
 ---    LogToConsole("Found ghost in "..(npc.pos.x//32)..", "..(npc.pos.y//32))
 ---end
 ---```
----@return ClientNPC
+---@return ClientNPC[]
 function getNPCList() end

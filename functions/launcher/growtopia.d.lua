@@ -1,5 +1,4 @@
----@class Growtopia
-local growtopia = {}
+growtopia = {}
 
 ---Set visual weather.
 ---
@@ -117,5 +116,5 @@ function growtopia.enterGateaway(x, y, buttonNumber) end
 ---growtopia.sendChat("/powerhelp", true)
 ---```
 ---@param text string
----@param toClient! boolean
+---@param toClient boolean
 function growtopia.sendChat(text, toClient) end

@@ -26,7 +26,7 @@ function SendVariant(variantlist, packet) end
 ---@param variantlist VariantList
 ---@param useNetID boolean
 ---@param netID integer
----@param value
+---@param value any
 function SendVariant(variantlist, useNetID, netID, value) end
 
 ---Sends Variantlist to server.
@@ -57,5 +57,5 @@ function sendVariant(variantlist, packet) end
 ---@param variantlist VariantList
 ---@param useNetID boolean
 ---@param netID integer
----@param value
+---@param value any
 function sendVariant(variantlist, useNetID, netID, value) end

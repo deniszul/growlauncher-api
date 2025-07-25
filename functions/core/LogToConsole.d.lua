@@ -4,6 +4,6 @@
 ---```lua
 ---LogToConsole("Test 123...")
 ---```
----@param text string
+---@param text string|number
 ---@return string text
 function LogToConsole(text) end

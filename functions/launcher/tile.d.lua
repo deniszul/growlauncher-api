@@ -1,4 +1,4 @@
-local tile = {}
+tile = {}
 
 ---Example:
 ---```lua
